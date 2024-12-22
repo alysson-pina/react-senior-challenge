@@ -1,0 +1,52 @@
+.companyWrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 0.5em;
+  align-self: center;
+  justify-content: flex-start;
+  text-align: left;
+  margin-bottom: 1em;
+
+  @media (min-width: 768) {
+    gap: 1.1em;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 1025px) {
+    gap: 2.2em;
+  }
+}
+
+.company {
+  line-height: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.companyName {
+  line-height: 1em;
+  text-wrap: pretty;
+  font-size: 1em;
+  color: cadetblue;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.companyArea {
+  line-height: 1em;
+  font-size: 1em;
+  color: gray;
+  font-weight: 600;
+}
+
+.companyDetailsIcon {
+  align-self: center;
+  width: 1.6em;
+  height: 1.6em;
+  min-width: 1.6em;
+  min-height: 1.6em;
+  color: gray;
+  cursor: pointer;
+}

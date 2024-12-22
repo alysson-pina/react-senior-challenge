@@ -1,0 +1,8 @@
+.detailsIcon {
+  align-self: center;
+  width: 22px;
+  height: 22px;
+  color: gray;
+  justify-self: center;
+  cursor: pointer;
+}
